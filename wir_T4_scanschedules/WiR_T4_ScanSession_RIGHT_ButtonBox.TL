@@ -1,0 +1,11 @@
+Rest:run=T1000_REST_T0_R1.schedule
+Interoceptive Awareness:run=T1000_IA_T0_Random1_RIGHT.schedule
+Interoceptive Awareness:run=T1000_IA_T0_Random2_RIGHT.schedule
+Monetary Incentive Delay:run=T1000_MID_T0_R1.schedule
+Monetary Incentive Delay:run=T1000_MID_T0_R2.schedule
+Stop Signal Task:run=T1000_SS_T0_R1_RIGHT.schedule
+Fear Conditioning:run=T1000_FC_T0_R1_RIGHT.schedule
+Fear Conditioning:run=T1000_FC_T0_R2.schedule
+Fear Conditioning:run=T1000_FC_T0_R3.schedule
+Fear Conditioning:run=T1000_FC_T0_R4.schedule
+Data Mover:run=T1000_FUNC_TX.schedule

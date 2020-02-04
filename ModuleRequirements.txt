@@ -1,0 +1,5 @@
+Each module should have a .run(SID, scan, resk) function that takes the subjectID, a boolean indicating whether it is a scanning run or not (scanning runs should have an "In Preparation" slide (wait for a 'z') and a "Task Will Begin Soon" slide (wait for a 't')--make this a library function), and a dictionary of response keys defining 'up', 'down', 'left', 'right', and 'select', not all of which may be applicable to a particular task.
+.run() can either start the task or bring up a dialogue requesting additional information.
+Hitting escape to exit should cause the task to halt and prompt to repeat the run(e.g. scanner error, repeat the run).
+Each task should implement instructions appropriate for its format.
+

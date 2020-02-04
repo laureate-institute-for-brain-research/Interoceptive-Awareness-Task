@@ -1,0 +1,12 @@
+record_video False
+signal_parallel False
+auto_advance True
+screen_x 1920
+screen_y 1070
+output_dir 'C:/T1000_Temporary_Storage/functional_session/'
+left '3'
+right '4'
+select '2'
+instruction_volume 0.6
+redirect_output True
+session_id T4
